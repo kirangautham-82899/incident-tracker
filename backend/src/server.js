@@ -45,7 +45,7 @@ const io = new Server(httpServer, {
   cors: corsOptions
 });
 
-const app = express();
+
 
 // Connect to MongoDB
 connectDB();
