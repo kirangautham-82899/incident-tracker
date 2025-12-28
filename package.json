@@ -1,13 +1,14 @@
 {
     "name": "incident-tracker-root",
-    "version": "1.0.0",
     "private": true,
     "engines": {
         "node": ">=18.0.0"
     },
+    "workspaces": [
+        "backend"
+    ],
     "scripts": {
-        "install": "cd backend && npm install",
-        "start": "cd backend && npm start",
-        "build": "cd backend && npm install"
+        "start": "npm start -w incident-tracker-backend",
+        "build": "echo 'No build step for backend' && exit 0"
     }
 }
