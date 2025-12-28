@@ -261,16 +261,4 @@ npm start        # Start production server
 
 ---
 
-## 🤝 Contributing
 
-This is a hackathon project. More documentation will be added as development progresses.
-
----
-
-## 📄 License
-
-MIT License
-
----
-
-**Built with ❤️ for emergency response and public safety**
